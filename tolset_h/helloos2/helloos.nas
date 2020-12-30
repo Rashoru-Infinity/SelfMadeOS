@@ -18,7 +18,7 @@
 	db	0,0,0x29				; I'm not sure, but it seems good to set this value
 	dd	0xffffffff				; Maybe volume serial number
 	db	"HELLO-OS   "			; Disk name (11 bytes)
-	db	"FAT12"					; Format name (8 bytes)
+	db	"FAT12   "				; Format name (8 bytes)
 	resb	18					; Leave 18 bytes for the time being
 
 ; Program body
