@@ -1,7 +1,7 @@
 ; hello-os
 ; TAB=4
 ; Below is a code for a standard FAT12 format floppy disk
-	db	0xeb	0x4e,	0x90
+	db	0xeb, 0x4e, 0x90
 	db	"HELLOIPL"				; Boot sector name
 	dw	512						; Sector size
 	db	1						; Cluster size
